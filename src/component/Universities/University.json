@@ -1,0 +1,1035 @@
+{
+    "usa": {
+        "countryDetails": {
+            "uni": "USA",
+            "name": "Study In USA",
+            "description": "The United States of America (USA) hosts the greatest number of international students in the world...",
+            "image": "america.jpg"
+        },
+        "universities": [
+            {
+                "key": 1,
+                "name": "Massachusetts Institute of Technology (MIT)",
+                "location": "Cambridge, Massachusetts",
+                "imageUrl": "america.jpg"
+            },
+            {
+                "key": 2,
+                "name": "Harvard University",
+                "location": "Cambridge, Massachusetts",
+                "imageUrl": "america.jpg"
+            },
+            {
+                "key": 3,
+                "name": "Stanford University",
+                "location": "Stanford, California",
+                "imageUrl": "america.jpg"
+            },
+            {
+                "key": 4,
+                "name": "University of California, Berkeley (UCB)",
+                "location": "Berkeley, California",
+                "imageUrl": "america.jpg"
+            },
+            {
+                "key": 5,
+                "name": "University of Chicago",
+                "location": "Berkeley, California",
+                "imageUrl": "america.jpg"
+            },
+            {
+                "key": 6,
+                "name": "University of Pennsylvania",
+                "location": "University of Pennsylvania",
+                "imageUrl": "america.jpg"
+            },
+            {
+                "key": 7,
+                "name": "Cornell University",
+                "location": "Ithaca, New York",
+                "imageUrl": ""
+            },
+            {
+                "key": 8,
+                "name": "California Institute of Technology (Caltech)",
+                "location": "Pasadena, California",
+                "imageUrl": ""
+            },
+            {
+                "key": 9,
+                "name": "Yale University",
+                "location": "New Haven, Connecticut",
+                "imageUrl": ""
+            },
+            {
+                "key": 10,
+                "name": "Princeton University",
+                "location": "Princeton, New Jersey",
+                "imageUrl": ""
+            },
+            {
+                "key": 11,
+                "name": "Columbia University",
+                "location": "New York City, New York",
+                "imageUrl": ""
+            },
+            {
+                "key": 12,
+                "name": "Johns Hopkins University",
+                "location": "Baltimore, Maryland",
+                "imageUrl": ""
+            },
+            {
+                "key": 13,
+                "name": "University of California, Los Angeles (UCLA)",
+                "location": "Los Angeles, California",
+                "imageUrl": ""
+            },
+            {
+                "key": 14,
+                "name": "University of Michigan-Ann Arbor",
+                "location": "Ann Arbor, Michigan",
+                "imageUrl": ""
+            },
+            {
+                "key": 15,
+                "name": "New York University",
+                "location": "New York City, New York",
+                "imageUrl": ""
+            },
+            {
+                "key": 16,
+                "name": "Northwestern University",
+                "location": "Evanston, Illinois",
+                "imageUrl": ""
+            },
+            {
+                "key": 17,
+                "name": "Carnegie Mellon University",
+                "location": "Pittsburgh, Pennsylvania",
+                "imageUrl": ""
+            },
+            {
+                "key": 18,
+                "name": "Duke University",
+                "location": "Durham, North Carolina",
+                "imageUrl": ""
+            },
+            {
+                "key": 19,
+                "name": "University of Texas at Austin",
+                "location": "Austin, Texas",
+                "imageUrl": ""
+            },
+            {
+                "key": 20,
+                "name": "University of California, San Diego",
+                "location": "San Diego, California",
+                "imageUrl": ""
+            }
+        ]
+    },
+    "germany": {
+        "countryDetails": {
+            "uni": "Germany",
+            "name": "Study In Germany",
+            "description": "Each year more than 25,000 international students choose to study in Germany and undertake research activities..."
+        },
+        "universities": [
+            {
+                "key": 21,
+                "name": "Technical University of Munich",
+                "location": "Munich, Germany",
+                "imageUrl": "america.jpg"
+            },
+            {
+                "key": 22,
+                "name": "Ludwig Maximilians University Munich",
+                "location": "Munich, Germany",
+                "imageUrl": "america.jpg"
+            },
+            {
+                "key": 23,
+                "name": "Heidelberg University",
+                "location": "Heidelberg, Germany",
+                "imageUrl": ""
+            },
+            {
+                "key": 24,
+                "name": "Freie Universität Berlin",
+                "location": "Berlin, Germany",
+                "imageUrl": ""
+            },
+            {
+                "key": 25,
+                "name": "Humboldt University Berlin",
+                "location": "Berlin, Germany",
+                "imageUrl": ""
+            },
+            {
+                "key": 26,
+                "name": "Karlsruhe Institute of Technology (KIT)",
+                "location": "Karlsruhe, Germany",
+                "imageUrl": ""
+            },
+            {
+                "key": 27,
+                "name": "RWTH Aachen University",
+                "location": "Aachen, Germany",
+                "imageUrl": ""
+            },
+            {
+                "key": 28,
+                "name": "Technische Universität Berlin",
+                "location": "Berlin, Germany",
+                "imageUrl": ""
+            },
+            {
+                "key": 29,
+                "name": "University of Tübingen",
+                "location": "Tübingen, Germany",
+                "imageUrl": ""
+            },
+            {
+                "key": 30,
+                "name": "University of Freiburg",
+                "location": "Freiburg, Germany",
+                "imageUrl": ""
+            },
+            {
+                "key": 31,
+                "name": "Technische Universität Dresden",
+                "location": "Dresden, Germany",
+                "imageUrl": ""
+            },
+            {
+                "key": 32,
+                "name": "University of Bonn",
+                "location": "Bonn, Germany",
+                "imageUrl": ""
+            },
+            {
+                "key": 33,
+                "name": "University of Göttingen",
+                "location": "Göttingen, Germany",
+                "imageUrl": ""
+            },
+            {
+                "key": 34,
+                "name": "Universität Hamburg",
+                "location": "Hamburg, Germany",
+                "imageUrl": ""
+            },
+            {
+                "key": 35,
+                "name": "TU Darmstadt",
+                "location": "Darmstadt, Germany",
+                "imageUrl": ""
+            },
+            {
+                "key": 36,
+                "name": "Goethe University Frankfurt",
+                "location": "Frankfurt, Germany",
+                "imageUrl": ""
+            },
+            {
+                "key": 37,
+                "name": "University of Cologne",
+                "location": "Cologne, Germany",
+                "imageUrl": ""
+            },
+            {
+                "key": 38,
+                "name": "FAU Erlangen-Nürnberg",
+                "location": "Erlangen-Nürnberg, Germany",
+                "imageUrl": ""
+            },
+            {
+                "key": 39,
+                "name": "Friedrich Schiller University Jena",
+                "location": "Jena, Germany",
+                "imageUrl": ""
+            },
+            {
+                "key": 40,
+                "name": "University of Stuttgart",
+                "location": "Stuttgart, Germany",
+                "imageUrl": ""
+            }
+        ]
+    },
+    "uk": {
+        "countryDetails": {
+            "uni": "UK",
+            "name": "Study In Uk",
+            "description": "Each year more than 25,000 international students choose to study in Germany and undertake research activities..."
+        },
+        "universities": [
+            {
+                "key": 41,
+                "name": "University of Cambridge",
+                "location": "Cambridge, UK",
+                "imageUrl": ""
+            },
+            {
+                "key": 42,
+                "name": "University of Oxford",
+                "location": "Oxford, UK",
+                "imageUrl": ""
+            },
+            {
+                "key": 43,
+                "name": "University College London",
+                "location": "London, UK",
+                "imageUrl": ""
+            },
+            {
+                "key": 44,
+                "name": "Imperial College London",
+                "location": "London, UK",
+                "imageUrl": "america.jpg"
+            },
+            {
+                "key": 45,
+                "name": "King's College London",
+                "location": "London, UK",
+                "imageUrl": "america.jpg"
+            },
+            {
+                "key": 46,
+                "name": "University of Edinburgh",
+                "location": "Edinburgh, UK",
+                "imageUrl": "america.jpg"
+            },
+            {
+                "key": 47,
+                "name": "University of Manchester",
+                "location": "Manchester, UK",
+                "imageUrl": "america.jpg"
+            },
+            {
+                "key": 48,
+                "name": "University of Birmingham",
+                "location": "Birmingham, UK",
+                "imageUrl": "america.jpg"
+            },
+            {
+                "key": 49,
+                "name": "University of Bristol",
+                "location": "Bristol, UK",
+                "imageUrl": ""
+            },
+            {
+                "key": 50,
+                "name": "University of Leeds",
+                "location": "Leeds, UK",
+                "imageUrl": ""
+            },
+            {
+                "key": 51,
+                "name": "University of Southampton",
+                "location": "Southampton, UK",
+                "imageUrl": ""
+            },
+            {
+                "key": 52,
+                "name": "University of Glasgow",
+                "location": "Glasgow, UK",
+                "imageUrl": ""
+            },
+            {
+                "key": 53,
+                "name": "University of Liverpool",
+                "location": "Liverpool, UK",
+                "imageUrl": ""
+            },
+            {
+                "key": 54,
+                "name": "University of Nottingham",
+                "location": "Nottingham, UK",
+                "imageUrl": ""
+            },
+            {
+                "key": 55,
+                "name": "University of Sheffield",
+                "location": "Sheffield, UK",
+                "imageUrl": ""
+            },
+            {
+                "key": 56,
+                "name": "Queen Mary University of London",
+                "location": "London, UK",
+                "imageUrl": ""
+            },
+            {
+                "key": 57,
+                "name": "Cardiff University",
+                "location": "Cardiff, UK",
+                "imageUrl": ""
+            },
+            {
+                "key": 58,
+                "name": "Newcastle University",
+                "location": "Newcastle, UK",
+                "imageUrl": ""
+            },
+            {
+                "key": 59,
+                "name": "University of Warwick",
+                "location": "Warwick, UK",
+                "imageUrl": ""
+            },
+            {
+                "key": 60,
+                "name": "London School of Hygiene & Tropical Medicine",
+                "location": "London, UK",
+                "imageUrl": ""
+            }
+        ]
+    },
+    "australia": {
+        "countryDetails": {
+            "uni": "Australia",
+            "name": "Study In Australia",
+            "description": "Each year more than 25,000 international students choose to study in Germany and undertake research activities..."
+        },
+        "universities": [
+            {
+                "key": 61,
+                "name": "The Australian National University (ANU)",
+                "location": "Canberra, Australia",
+                "imageUrl": ""
+            },
+            {
+                "key": 62,
+                "name": "The University of Melbourne",
+                "location": "Melbourne, Australia",
+                "imageUrl": ""
+            },
+            {
+                "key": 63,
+                "name": "The University of Sydney",
+                "location": "Sydney, Australia",
+                "imageUrl": ""
+            },
+            {
+                "key": 64,
+                "name": "The University of New South Wales (UNSW Sydney)",
+                "location": "Sydney, Australia",
+                "imageUrl": ""
+            },
+            {
+                "key": 65,
+                "name": "The University of Queensland",
+                "location": "Brisbane, Australia",
+                "imageUrl": ""
+            },
+            {
+                "key": 66,
+                "name": "Monash University",
+                "location": "Melbourne, Australia",
+                "imageUrl": ""
+            },
+            {
+                "key": 67,
+                "name": "The University of Western Australia",
+                "location": "Perth, Australia",
+                "imageUrl": ""
+            },
+            {
+                "key": 68,
+                "name": "The University of Adelaide",
+                "location": "Adelaide, Australia",
+                "imageUrl": ""
+            },
+            {
+                "key": 69,
+                "name": "University of Technology Sydney",
+                "location": "Sydney, Australia",
+                "imageUrl": ""
+            },
+            {
+                "key": 70,
+                "name": "University of Wollongong",
+                "location": "Wollongong, Australia",
+                "imageUrl": ""
+            },
+            {
+                "key": 71,
+                "name": "RMIT University",
+                "location": "Melbourne, Australia",
+                "imageUrl": ""
+            },
+            {
+                "key": 72,
+                "name": "The University of Newcastle, Australia (UON)",
+                "location": "Newcastle, Australia",
+                "imageUrl": ""
+            },
+            {
+                "key": 73,
+                "name": "Curtin University",
+                "location": "Perth, Australia",
+                "imageUrl": ""
+            },
+            {
+                "key": 74,
+                "name": "Macquarie University",
+                "location": "Sydney, Australia",
+                "imageUrl": ""
+            },
+            {
+                "key": 75,
+                "name": "Queensland University of Technology (QUT)",
+                "location": "Brisbane, Australia",
+                "imageUrl": ""
+            },
+            {
+                "key": 76,
+                "name": "Deakin University",
+                "location": "Melbourne, Australia",
+                "imageUrl": ""
+            },
+            {
+                "key": 77,
+                "name": "University of Tasmania",
+                "location": "Hobart, Australia",
+                "imageUrl": ""
+            },
+            {
+                "key": 78,
+                "name": "Swinburne University of Technology",
+                "location": "Melbourne, Australia",
+                "imageUrl": ""
+            },
+            {
+                "key": 79,
+                "name": "Griffith University",
+                "location": "Brisbane, Australia",
+                "imageUrl": ""
+            },
+            {
+                "key": 80,
+                "name": "La Trobe University",
+                "location": "Melbourne, Australia",
+                "imageUrl": ""
+            }
+        ]
+    },
+    "japan": {
+        "countryDetails": {
+            "uni": "Japan",
+            "name": "Study In Japan",
+            "description": "Each year more than 25,000 international students choose to study in Germany and undertake research activities..."
+        },
+        "universities": [
+            {
+                "key": 81,
+                "name": "The University of Tokyo",
+                "location": "Tokyo, Japan",
+                "imageUrl": ""
+            },
+            {
+                "key": 82,
+                "name": "Kyoto University",
+                "location": "Kyoto, Japan",
+                "imageUrl": ""
+            },
+            {
+                "key": 83,
+                "name": "Keio University",
+                "location": "Tokyo, Japan",
+                "imageUrl": ""
+            },
+            {
+                "key": 84,
+                "name": "Osaka University",
+                "location": "Osaka, Japan",
+                "imageUrl": ""
+            },
+            {
+                "key": 85,
+                "name": "Tohoku University",
+                "location": "Sendai, Japan",
+                "imageUrl": ""
+            },
+            {
+                "key": 86,
+                "name": "University of Tsukuba",
+                "location": "Tsukuba, Japan",
+                "imageUrl": ""
+            },
+            {
+                "key": 87,
+                "name": "Hokkaido University",
+                "location": "Sapporo, Japan",
+                "imageUrl": ""
+            },
+            {
+                "key": 88,
+                "name": "Kyushu University",
+                "location": "Fukuoka, Japan",
+                "imageUrl": ""
+            },
+            {
+                "key": 89,
+                "name": "Ritsumeikan University",
+                "location": "Kyoto, Japan",
+                "imageUrl": ""
+            },
+            {
+                "key": 90,
+                "name": "Nagoya University",
+                "location": "Nagoya, Japan",
+                "imageUrl": ""
+            },
+            {
+                "key": 91,
+                "name": "Waseda University",
+                "location": "Tokyo, Japan",
+                "imageUrl": ""
+            },
+            {
+                "key": 92,
+                "name": "Tokyo Institute of Technology",
+                "location": "Tokyo, Japan",
+                "imageUrl": ""
+            },
+            {
+                "key": 93,
+                "name": "Hiroshima University",
+                "location": "Hiroshima, Japan",
+                "imageUrl": ""
+            },
+            {
+                "key": 94,
+                "name": "Kobe University",
+                "location": "Kobe, Japan",
+                "imageUrl": ""
+            },
+            {
+                "key": 95,
+                "name": "Nihon University",
+                "location": "Tokyo, Japan",
+                "imageUrl": ""
+            },
+            {
+                "key": 96,
+                "name": "Meiji University",
+                "location": "Tokyo, Japan",
+                "imageUrl": ""
+            },
+            {
+                "key": 97,
+                "name": "Okayama University",
+                "location": "Okayama, Japan",
+                "imageUrl": ""
+            },
+            {
+                "key": 98,
+                "name": "Tokyo University of Science",
+                "location": "Tokyo, Japan",
+                "imageUrl": ""
+            },
+            {
+                "key": 99,
+                "name": "Shinshu University",
+                "location": "Nagano, Japan",
+                "imageUrl": ""
+            },
+            {
+                "key": 100,
+                "name": "Doshisha University",
+                "location": "Kyoto, Japan",
+                "imageUrl": ""
+            }
+        ]
+    },
+    "italy": {
+        "countryDetails": {
+            "uni": "Italy",
+            "name": "Study In Italy",
+            "description": "Each year more than 25,000 international students choose to study in Germany and undertake research activities..."
+        },
+        "universities": [
+            {
+                "key": 101,
+                "name": "University of Padua",
+                "location": "Padua, Italy",
+                "imageUrl": ""
+            },
+            {
+                "key": 102,
+                "name": "University of Bologna",
+                "location": "Bologna, Italy",
+                "imageUrl": ""
+            },
+            {
+                "key": 103,
+                "name": "Sapienza University Rome",
+                "location": "Rome, Italy",
+                "imageUrl": ""
+            },
+            {
+                "key": 104,
+                "name": "University of Milan",
+                "location": "Milan, Italy",
+                "imageUrl": ""
+            },
+            {
+                "key": 105,
+                "name": "University of Naples Federico II",
+                "location": "Naples, Italy",
+                "imageUrl": ""
+            },
+            {
+                "key": 106,
+                "name": "University of Turin",
+                "location": "Turin, Italy",
+                "imageUrl": ""
+            },
+            {
+                "key": 107,
+                "name": "University of Pisa",
+                "location": "Pisa, Italy",
+                "imageUrl": ""
+            },
+            {
+                "key": 108,
+                "name": "University of Florence",
+                "location": "Florence, Italy",
+                "imageUrl": ""
+            },
+            {
+                "key": 109,
+                "name": "University of Trento",
+                "location": "Trento, Italy",
+                "imageUrl": ""
+            },
+            {
+                "key": 110,
+                "name": "University of Milano-Bicocca",
+                "location": "Milan, Italy",
+                "imageUrl": ""
+            },
+            {
+                "key": 111,
+                "name": "International School for Advanced Studies (SISSA)",
+                "location": "Trieste, Italy",
+                "imageUrl": ""
+            },
+            {
+                "key": 112,
+                "name": "University of Pavia",
+                "location": "Pavia, Italy",
+                "imageUrl": ""
+            },
+            {
+                "key": 113,
+                "name": "Polytechnic University of Milan",
+                "location": "Milan, Italy",
+                "imageUrl": ""
+            },
+            {
+                "key": 114,
+                "name": "University of Genoa",
+                "location": "Genoa, Italy",
+                "imageUrl": ""
+            },
+            {
+                "key": 115,
+                "name": "University of Rome Tor Vergata",
+                "location": "Rome, Italy",
+                "imageUrl": ""
+            },
+            {
+                "key": 116,
+                "name": "Vita-Salute San Raffaele University",
+                "location": "Milan, Italy",
+                "imageUrl": ""
+            },
+            {
+                "key": 117,
+                "name": "Catholic University of the Sacred Heart",
+                "location": "Milan, Italy",
+                "imageUrl": ""
+            },
+            {
+                "key": 118,
+                "name": "University of Perugia",
+                "location": "Perugia, Italy",
+                "imageUrl": ""
+            },
+            {
+                "key": 119,
+                "name": "Scuola Normale Superiore di Pisa",
+                "location": "Pisa, Italy",
+                "imageUrl": ""
+            },
+            {
+                "key": 120,
+                "name": "University of Trieste",
+                "location": "Trieste, Italy",
+                "imageUrl": ""
+            }
+        ]
+    },
+    "france": {
+        "countryDetails": {
+            "uni": "France",
+            "name": "Study In France",
+            "description": "Each year more than 25,000 international students choose to study in Germany and undertake research activities..."
+        },
+        "universities": [
+            {
+                "key": 121,
+                "name": "Audencia Business School",
+                "location": "Nantes, France",
+                "imageUrl": ""
+            },
+            {
+                "key": 122,
+                "name": "College De Paris",
+                "location": "Paris, France",
+                "imageUrl": ""
+            },
+            {
+                "key": 123,
+                "name": "Ducasse Education",
+                "location": "Paris, France",
+                "imageUrl": ""
+            },
+            {
+                "key": 124,
+                "name": "Ecole Conte",
+                "location": "Paris, France",
+                "imageUrl": ""
+            },
+            {
+                "key": 125,
+                "name": "EM Normandie Business School",
+                "location": "Le Havre, France",
+                "imageUrl": ""
+            },
+            {
+                "key": 126,
+                "name": "ESDES Lyon business school",
+                "location": "Lyon, France",
+                "imageUrl": ""
+            },
+            {
+                "key": 127,
+                "name": "Esigelec School of Engineering Grande ecole",
+                "location": "Rouen, France",
+                "imageUrl": ""
+            },
+            {
+                "key": 128,
+                "name": "ESSCA School of Management",
+                "location": "Angers, France",
+                "imageUrl": ""
+            },
+            {
+                "key": 129,
+                "name": "IDRAC Business school",
+                "location": "Lyon, France",
+                "imageUrl": ""
+            },
+            {
+                "key": 130,
+                "name": "ISC Paris Business School",
+                "location": "Paris, France",
+                "imageUrl": ""
+            },
+            {
+                "key": 131,
+                "name": "Isep Grande Eecole d ingenieurs du numerique",
+                "location": "Paris, France",
+                "imageUrl": ""
+            },
+            {
+                "key": 132,
+                "name": "Istituto Marangoni",
+                "location": "Paris, France",
+                "imageUrl": ""
+            },
+            {
+                "key": 133,
+                "name": "KEDGE Business School",
+                "location": "Marseille, France",
+                "imageUrl": ""
+            },
+            {
+                "key": 134,
+                "name": "Keyce Business School",
+                "location": "Aix-en-Provence, France",
+                "imageUrl": ""
+            },
+            {
+                "key": 135,
+                "name": "Le Cordon Bleu",
+                "location": "Paris, France",
+                "imageUrl": ""
+            },
+            {
+                "key": 136,
+                "name": "Leonard de Vinci Group",
+                "location": "Paris La Défense, France",
+                "imageUrl": ""
+            },
+            {
+                "key": 137,
+                "name": "Neoma Business School",
+                "location": "Reims, France",
+                "imageUrl": ""
+            },
+            {
+                "key": 138,
+                "name": "OMNES Education",
+                "location": "Paris, France",
+                "imageUrl": ""
+            },
+            {
+                "key": 139,
+                "name": "Paris School of Luxury",
+                "location": "Paris, France",
+                "imageUrl": ""
+            },
+            {
+                "key": 140,
+                "name": "Rennes School of Business",
+                "location": "Rennes, France",
+                "imageUrl": ""
+            }
+        ]
+    },
+    "switzerland": {
+        "countryDetails": {
+            "uni": "Switzerland",
+            "name": "Study In Switzerland",
+            "description": "Each year more than 25,000 international students choose to study in Germany and undertake research activities..."
+        },
+        "universities": [
+            {
+                "key": 161,
+                "name": "Swiss Federal Institute of Technology Zurich",
+                "location": "Zurich, Switzerland",
+                "imageUrl": ""
+            },
+            {
+                "key": 162,
+                "name": "University of Zurich",
+                "location": "Zurich, Switzerland",
+                "imageUrl": ""
+            },
+            {
+                "key": 163,
+                "name": "Federal Institute of Technology Lausanne",
+                "location": "Lausanne, Switzerland",
+                "imageUrl": ""
+            },
+            {
+                "key": 164,
+                "name": "University of Bern",
+                "location": "Bern, Switzerland",
+                "imageUrl": ""
+            },
+            {
+                "key": 165,
+                "name": "University of Geneva",
+                "location": "Geneva, Switzerland",
+                "imageUrl": ""
+            },
+            {
+                "key": 166,
+                "name": "University of Basel",
+                "location": "Basel, Switzerland",
+                "imageUrl": ""
+            },
+            {
+                "key": 167,
+                "name": "University of Lausanne",
+                "location": "Lausanne, Switzerland",
+                "imageUrl": ""
+            },
+            {
+                "key": 168,
+                "name": "University of Fribourg",
+                "location": "Fribourg, Switzerland",
+                "imageUrl": ""
+            },
+            {
+                "key": 169,
+                "name": "University of St. Gallen",
+                "location": "St. Gallen, Switzerland",
+                "imageUrl": ""
+            },
+            {
+                "key": 170,
+                "name": "University of Neuchatel",
+                "location": "Neuchatel, Switzerland",
+                "imageUrl": ""
+            },
+            {
+                "key": 171,
+                "name": "University of Italian-speaking Switzerland",
+                "location": "Lugano, Switzerland",
+                "imageUrl": ""
+            },
+            {
+                "key": 172,
+                "name": "University of Applied Sciences of Northwestern Switzerland",
+                "location": "Olten, Switzerland",
+                "imageUrl": ""
+            },
+            {
+                "key": 173,
+                "name": "Graduate Institute of International and Development Studies",
+                "location": "Geneva, Switzerland",
+                "imageUrl": ""
+            },
+            {
+                "key": 174,
+                "name": "Bern University of Applied Sciences",
+                "location": "Bern, Switzerland",
+                "imageUrl": ""
+            },
+            {
+                "key": 175,
+                "name": "University of Applied Sciences Western Switzerland",
+                "location": "Yverdon-les-Bains, Switzerland",
+                "imageUrl": ""
+            },
+            {
+                "key": 176,
+                "name": "Lucerne University of Applied Sciences",
+                "location": "Lucerne, Switzerland",
+                "imageUrl": ""
+            },
+            {
+                "key": 177,
+                "name": "University of Applied Sciences and Arts of Italian Switzerland",
+                "location": "Lugano, Switzerland",
+                "imageUrl": ""
+            },
+            {
+                "key": 178,
+                "name": "University of Lucerne",
+                "location": "Lucerne, Switzerland",
+                "imageUrl": ""
+            },
+            {
+                "key": 179,
+                "name": "University of Applied Sciences Zurich",
+                "location": "Winterthur, Switzerland",
+                "imageUrl": ""
+            },
+            {
+                "key": 180,
+                "name": "Webster University Geneva",
+                "location": "Geneva, Switzerland",
+                "imageUrl": ""
+            }
+        ]
+    }
+}
