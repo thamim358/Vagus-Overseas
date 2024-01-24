@@ -62,11 +62,11 @@ function Header() {
     </div>
 
     <div className="mt-10 flex items-center justify-center">
-      <div className="p-2 bg-[#FB2465] rounded-full text-white font-semibold">
-        <Link to="/connect" className="btn text-sm px-3 flex items-center">
+      {/* <div className="p-2 bg-[#FB2465] rounded-full text-white font-semibold">
+        <Link to="/connect" className=" text-sm px-3 flex items-center">
           Connect <IconPhone className="pl-1 pb-1" />
         </Link>
-      </div>
+      </div> */}
     </div>
   </div>
 </section>

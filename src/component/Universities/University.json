@@ -1,152 +1,209 @@
+
+
 {
-    "usa": {
-        "countryDetails": {
-            "uni": "USA",
-            "name": "Study In USA",
-            "description": "The United States of America (USA) hosts the greatest number of international students in the world...",
-            "image": "america.jpg"
+        "usa": {
+            "countryDetails": {
+                "uni": "USA",
+                "name": "Study In USA",
+                "description": "The United States of America (USA) hosts the greatest number of international students in the world. Quality education, a unique curriculum, a multicultural environment, and abundant opportunities are just some of the reasons why many Indian students want to study in the USA."
+            },
+            "facilities": [
+                {
+                    "title": "Diverse Range of Programs",
+                    "description": "The USA offers a diverse range of academic programs across various fields, providing students with a wide array of choices to pursue their interests."
+                },
+                {
+                    "title": "Cutting-Edge Research Opportunities",
+                    "description": "Students can engage in groundbreaking research with access to state-of-the-art facilities and renowned faculty members in various research institutions."
+                },
+                {
+                    "title": "Internship and Work Opportunities",
+                    "description": "Abundant internship and work opportunities enable students to gain practical experience and build valuable networks while studying in the USA."
+                },
+                {
+                    "title": "Support Services for International Students",
+                    "description": "Universities in the USA offer comprehensive support services catering specifically to the needs of international students, including counseling, language support, and cultural integration programs."
+                },
+                {
+                    "title": "World-Class Infrastructure",
+                    "description": "Top-notch infrastructure, modern classrooms, well-equipped labs, libraries, and recreational facilities contribute to an enriching academic experience."
+                },
+                {
+                    "title": "Scholarship and Financial Aid Programs",
+                    "description": "Various scholarships, grants, and financial aid programs are available to assist international students in managing their tuition fees and living expenses."
+                }
+            ],
+            
+            
+            "universities": [
+                {
+                    "key": 1,
+                    "name": "Massachusetts Institute of Technology (MIT)",
+                    "location": "Cambridge, Massachusetts",
+                    "imageUrl": ""
+                },
+                {
+                    "key": 2,
+                    "name": "Harvard University",
+                    "location": "Cambridge, Massachusetts",
+                    "imageUrl": ""
+                },
+                {
+                    "key": 3,
+                    "name": "Stanford University",
+                    "location": "Stanford, California",
+                    "imageUrl": ""
+                },
+                {
+                    "key": 4,
+                    "name": "University of California, Berkeley (UCB)",
+                    "location": "Berkeley, California",
+                    "imageUrl": ""
+                },
+                {
+                    "key": 5,
+                    "name": "University of Chicago",
+                    "location": "Berkeley, California",
+                    "imageUrl": ""
+                },
+                {
+                    "key": 6,
+                    "name": "University of Pennsylvania",
+                    "location": "University of Pennsylvania",
+                    "imageUrl": ""
+                },
+                {
+                    "key": 7,
+                    "name": "Cornell University",
+                    "location": "Ithaca, New York",
+                    "imageUrl": ""
+                },
+                {
+                    "key": 8,
+                    "name": "California Institute of Technology (Caltech)",
+                    "location": "Pasadena, California",
+                    "imageUrl": ""
+                },
+                {
+                    "key": 9,
+                    "name": "Yale University",
+                    "location": "New Haven, Connecticut",
+                    "imageUrl": ""
+                },
+                {
+                    "key": 10,
+                    "name": "Princeton University",
+                    "location": "Princeton, New Jersey",
+                    "imageUrl": ""
+                },
+                {
+                    "key": 11,
+                    "name": "Columbia University",
+                    "location": "New York City, New York",
+                    "imageUrl": ""
+                },
+                {
+                    "key": 12,
+                    "name": "Johns Hopkins University",
+                    "location": "Baltimore, Maryland",
+                    "imageUrl": ""
+                },
+                {
+                    "key": 13,
+                    "name": "University of California, Los Angeles (UCLA)",
+                    "location": "Los Angeles, California",
+                    "imageUrl": ""
+                },
+                {
+                    "key": 14,
+                    "name": "University of Michigan-Ann Arbor",
+                    "location": "Ann Arbor, Michigan",
+                    "imageUrl": ""
+                },
+                {
+                    "key": 15,
+                    "name": "New York University",
+                    "location": "New York City, New York",
+                    "imageUrl": ""
+                },
+                {
+                    "key": 16,
+                    "name": "Northwestern University",
+                    "location": "Evanston, Illinois",
+                    "imageUrl": ""
+                },
+                {
+                    "key": 17,
+                    "name": "Carnegie Mellon University",
+                    "location": "Pittsburgh, Pennsylvania",
+                    "imageUrl": ""
+                },
+                {
+                    "key": 18,
+                    "name": "Duke University",
+                    "location": "Durham, North Carolina",
+                    "imageUrl": ""
+                },
+                {
+                    "key": 19,
+                    "name": "University of Texas at Austin",
+                    "location": "Austin, Texas",
+                    "imageUrl": ""
+                },
+                {
+                    "key": 20,
+                    "name": "University of California, San Diego",
+                    "location": "San Diego, California",
+                    "imageUrl": ""
+                }
+            ]
+            
         },
-        "universities": [
-            {
-                "key": 1,
-                "name": "Massachusetts Institute of Technology (MIT)",
-                "location": "Cambridge, Massachusetts",
-                "imageUrl": "america.jpg"
-            },
-            {
-                "key": 2,
-                "name": "Harvard University",
-                "location": "Cambridge, Massachusetts",
-                "imageUrl": "america.jpg"
-            },
-            {
-                "key": 3,
-                "name": "Stanford University",
-                "location": "Stanford, California",
-                "imageUrl": "america.jpg"
-            },
-            {
-                "key": 4,
-                "name": "University of California, Berkeley (UCB)",
-                "location": "Berkeley, California",
-                "imageUrl": "america.jpg"
-            },
-            {
-                "key": 5,
-                "name": "University of Chicago",
-                "location": "Berkeley, California",
-                "imageUrl": "america.jpg"
-            },
-            {
-                "key": 6,
-                "name": "University of Pennsylvania",
-                "location": "University of Pennsylvania",
-                "imageUrl": "america.jpg"
-            },
-            {
-                "key": 7,
-                "name": "Cornell University",
-                "location": "Ithaca, New York",
-                "imageUrl": ""
-            },
-            {
-                "key": 8,
-                "name": "California Institute of Technology (Caltech)",
-                "location": "Pasadena, California",
-                "imageUrl": ""
-            },
-            {
-                "key": 9,
-                "name": "Yale University",
-                "location": "New Haven, Connecticut",
-                "imageUrl": ""
-            },
-            {
-                "key": 10,
-                "name": "Princeton University",
-                "location": "Princeton, New Jersey",
-                "imageUrl": ""
-            },
-            {
-                "key": 11,
-                "name": "Columbia University",
-                "location": "New York City, New York",
-                "imageUrl": ""
-            },
-            {
-                "key": 12,
-                "name": "Johns Hopkins University",
-                "location": "Baltimore, Maryland",
-                "imageUrl": ""
-            },
-            {
-                "key": 13,
-                "name": "University of California, Los Angeles (UCLA)",
-                "location": "Los Angeles, California",
-                "imageUrl": ""
-            },
-            {
-                "key": 14,
-                "name": "University of Michigan-Ann Arbor",
-                "location": "Ann Arbor, Michigan",
-                "imageUrl": ""
-            },
-            {
-                "key": 15,
-                "name": "New York University",
-                "location": "New York City, New York",
-                "imageUrl": ""
-            },
-            {
-                "key": 16,
-                "name": "Northwestern University",
-                "location": "Evanston, Illinois",
-                "imageUrl": ""
-            },
-            {
-                "key": 17,
-                "name": "Carnegie Mellon University",
-                "location": "Pittsburgh, Pennsylvania",
-                "imageUrl": ""
-            },
-            {
-                "key": 18,
-                "name": "Duke University",
-                "location": "Durham, North Carolina",
-                "imageUrl": ""
-            },
-            {
-                "key": 19,
-                "name": "University of Texas at Austin",
-                "location": "Austin, Texas",
-                "imageUrl": ""
-            },
-            {
-                "key": 20,
-                "name": "University of California, San Diego",
-                "location": "San Diego, California",
-                "imageUrl": ""
-            }
-        ]
-    },
     "germany": {
         "countryDetails": {
             "uni": "Germany",
             "name": "Study In Germany",
-            "description": "Each year more than 25,000 international students choose to study in Germany and undertake research activities..."
+            "description": "Each year more than 25,000 international students choose to study in Germany and undertake research activities. They are attracted by international study programmes and excellent research opportunities. In addition, study in Germany for Indian students allows them to be part of an international, highly qualified community. Over 300 international Degree programmes offer courses which are entirely or partly taught in the English language. "
         },
+        "facilities": [
+            {
+                "title": "Internationally Recognized Education",
+                "description": "Germany offers internationally recognized education with a focus on research-oriented programs and a high standard of academic excellence."
+            },
+            {
+                "title": "Diverse Range of English-Taught Programs",
+                "description": "With over 300 international degree programs taught in English, students have a wide range of options to study in their preferred language."
+            },
+            {
+                "title": "Research Opportunities",
+                "description": "Students in Germany have access to excellent research facilities, fostering innovation and providing opportunities for hands-on learning."
+            },
+            {
+                "title": "Strong Industry Connections",
+                "description": "Close ties between universities and industry sectors facilitate internships, practical experiences, and career opportunities for students."
+            },
+            {
+                "title": "Supportive Environment for International Students",
+                "description": "Germany provides a welcoming environment for international students, offering support services, language courses, and integration programs."
+            },
+            {
+                "title": "Affordable Education",
+                "description": "Many public universities in Germany offer tuition-free education, making it an affordable option for international students."
+            }
+        ],
+        
         "universities": [
             {
                 "key": 21,
                 "name": "Technical University of Munich",
                 "location": "Munich, Germany",
-                "imageUrl": "america.jpg"
+                "imageUrl": ""
             },
             {
                 "key": 22,
                 "name": "Ludwig Maximilians University Munich",
                 "location": "Munich, Germany",
-                "imageUrl": "america.jpg"
+                "imageUrl": ""
             },
             {
                 "key": 23,
@@ -262,8 +319,33 @@
         "countryDetails": {
             "uni": "UK",
             "name": "Study In Uk",
-            "description": "Each year more than 25,000 international students choose to study in Germany and undertake research activities..."
-        },
+            "description": "Studying abroad in the United Kingdom has become an increasingly popular choice for Indian students seeking a world-class education. With a long tradition of academic excellence and a vibrant international community, the UK has become a top destination for students seeking to broaden their horizons, gain a global perspective, and immerse themselves in a country that seamlessly blends the old with the new. This journey allows students to not only expand their academic horizons but also explore the breathtaking landscapes and dynamic cities that the UK has to offer, making it a truly unforgettable adventure. "
+        },"facilities": [
+            {
+                "title": "Academic Excellence",
+                "description": "The UK is renowned for its high-quality education, prestigious universities, and globally recognized degrees, ensuring an excellent academic experience for students."
+            },
+            {
+                "title": "Cultural Diversity",
+                "description": "Students in the UK experience a rich cultural environment, with a diverse and inclusive society, enabling them to broaden their global perspectives."
+            },
+            {
+                "title": "Innovative Research Opportunities",
+                "description": "Access to cutting-edge research facilities and opportunities to work with leading experts allow students to engage in groundbreaking research projects."
+            },
+            {
+                "title": "Career Prospects",
+                "description": "The UK offers ample internship opportunities and strong industry connections, enhancing students' employability and paving the way for successful careers."
+            },
+            {
+                "title": "Historic & Modern Blend",
+                "description": "The UK boasts a unique blend of historic landmarks and modern cities, providing students with diverse experiences beyond academics."
+            },
+            {
+                "title": "Supportive Student Services",
+                "description": "Universities in the UK provide comprehensive student support services, including counseling, accommodation assistance, and career guidance."
+            }
+        ],        
         "universities": [
             {
                 "key": 41,
@@ -287,31 +369,31 @@
                 "key": 44,
                 "name": "Imperial College London",
                 "location": "London, UK",
-                "imageUrl": "america.jpg"
+                "imageUrl": ""
             },
             {
                 "key": 45,
                 "name": "King's College London",
                 "location": "London, UK",
-                "imageUrl": "america.jpg"
+                "imageUrl": ""
             },
             {
                 "key": 46,
                 "name": "University of Edinburgh",
                 "location": "Edinburgh, UK",
-                "imageUrl": "america.jpg"
+                "imageUrl": ""
             },
             {
                 "key": 47,
                 "name": "University of Manchester",
                 "location": "Manchester, UK",
-                "imageUrl": "america.jpg"
+                "imageUrl": ""
             },
             {
                 "key": 48,
                 "name": "University of Birmingham",
                 "location": "Birmingham, UK",
-                "imageUrl": "america.jpg"
+                "imageUrl": ""
             },
             {
                 "key": 49,
@@ -391,8 +473,33 @@
         "countryDetails": {
             "uni": "Australia",
             "name": "Study In Australia",
-            "description": "Each year more than 25,000 international students choose to study in Germany and undertake research activities..."
-        },
+            "description": "Study in Australia has a lot to offer to international students wishing to embark on their study overseas journey there. The country's modern lifestyle and native culture is highly regarded. Ranked among the best in the world are Higher Education Institutions in Australia. International students wishing to study in Australia are given a CRICOS code which indicates that it has global recognition."
+        },"facilities": [
+            {
+                "title": "High-Quality Education",
+                "description": "Australia is known for its high-quality education system, with world-renowned universities and institutions offering a wide range of programs."
+            },
+            {
+                "title": "Innovative Research Opportunities",
+                "description": "Students in Australia have access to cutting-edge research facilities and opportunities to participate in innovative research projects."
+            },
+            {
+                "title": "Multicultural Environment",
+                "description": "Australia embraces diversity, offering a multicultural environment that helps students to interact with people from various backgrounds."
+            },
+            {
+                "title": "Supportive Policies for International Students",
+                "description": "The Australian government has supportive policies for international students, including work permits, health insurance, and post-study work opportunities."
+            },
+            {
+                "title": "Modern Lifestyle and Native Culture",
+                "description": "Students in Australia can experience a modern lifestyle while also immersing themselves in the rich and diverse native culture of the country."
+            },
+            {
+                "title": "Global Recognition",
+                "description": "Degrees from Australian institutions hold global recognition, enhancing the career prospects and opportunities for students worldwide."
+            }
+        ],        
         "universities": [
             {
                 "key": 61,
@@ -520,8 +627,34 @@
         "countryDetails": {
             "uni": "Japan",
             "name": "Study In Japan",
-            "description": "Each year more than 25,000 international students choose to study in Germany and undertake research activities..."
+            "description": "Studying abroad in Japan is an exciting opportunity to immerse yourself in a rich culture, gain a world-class education, and explore a country known for its technological advancements and traditional charm. Japan offers a diverse range of programs at universities and language schools, making it an appealing destination for international students."
         },
+        "facilities": [
+            {
+                "title": "World-Class Education",
+                "description": "Japan offers a world-class education system with a strong emphasis on technological advancements, innovation, and academic excellence."
+            },
+            {
+                "title": "Rich Cultural Immersion",
+                "description": "Studying in Japan provides an opportunity for students to immerse themselves in a rich and diverse culture, blending tradition with modernity."
+            },
+            {
+                "title": "Diverse Range of Programs",
+                "description": "Japanese universities and language schools offer a diverse range of programs, catering to various academic interests and career paths."
+            },
+            {
+                "title": "Cutting-Edge Technology",
+                "description": "Access to cutting-edge technology and research facilities enables students to engage in innovative projects and hands-on learning experiences."
+            },
+            {
+                "title": "Safe and Welcoming Environment",
+                "description": "Japan is known for its safety and hospitality, providing a welcoming environment for international students to live and study comfortably."
+            },
+            {
+                "title": "Opportunities for Language Learning",
+                "description": "Students studying in Japan have the chance to learn the Japanese language, enhancing their cultural understanding and future career prospects."
+            }
+        ],        
         "universities": [
             {
                 "key": 81,
@@ -649,8 +782,34 @@
         "countryDetails": {
             "uni": "Italy",
             "name": "Study In Italy",
-            "description": "Each year more than 25,000 international students choose to study in Germany and undertake research activities..."
+            "description": "Study in Italy is an economical affair when compared to other study destinations in Europe. A popular study abroad destination, the same can be attributed to the fact that it is the multicultural home for a great number of artists. Home, to few of the top public and private universities, Italy provides quality education to students. The living costs as well as the tuition fees to study in Italy for Indian students are economical in nature."
         },
+        "facilities": [
+            {
+                "title": "Artistic and Cultural Hub",
+                "description": "Italy is a multicultural hub and home to numerous artists, offering a rich cultural experience and exposure to art and history."
+            },
+            {
+                "title": "Quality Education",
+                "description": "Italian universities, both public and private, provide quality education across various disciplines, attracting students worldwide."
+            },
+            {
+                "title": "Economical Study Destination",
+                "description": "Compared to other European study destinations, studying in Italy is economical, offering affordable tuition fees and living costs for students."
+            },
+            {
+                "title": "Heritage and History",
+                "description": "Students can immerse themselves in Italy's rich heritage and history, with access to historical sites and architectural marvels."
+            },
+            {
+                "title": "Multicultural Environment",
+                "description": "Italy's diverse population creates a multicultural environment, fostering cross-cultural interactions and global perspectives."
+            },
+            {
+                "title": "Language and Lifestyle",
+                "description": "Studying in Italy allows students to learn the Italian language and experience the vibrant Mediterranean lifestyle."
+            }
+        ],        
         "universities": [
             {
                 "key": 101,
@@ -743,7 +902,7 @@
                 "imageUrl": ""
             },
             {
-                "key": 116,
+                "key": 114,
                 "name": "Vita-Salute San Raffaele University",
                 "location": "Milan, Italy",
                 "imageUrl": ""
@@ -778,8 +937,33 @@
         "countryDetails": {
             "uni": "France",
             "name": "Study In France",
-            "description": "Each year more than 25,000 international students choose to study in Germany and undertake research activities..."
-        },
+            "description": "Study in Italy is an economical affair when compared to other study destinations in Europe. A popular study abroad destination, the same can be attributed to the fact that it is the multicultural home for a great number of artists. Home, to few of the top public and private universities, Italy provides quality education to students. The living costs as well as the tuition fees to study in Italy for Indian students are economical in nature."
+        },"facilities": [
+            {
+                "title": "Academic Excellence",
+                "description": "France is renowned for its academic excellence, offering high-quality education with prestigious universities and institutions."
+            },
+            {
+                "title": "Cultural Richness",
+                "description": "Studying in France allows students to immerse themselves in a culturally rich environment, experiencing art, history, and diverse traditions."
+            },
+            {
+                "title": "Internationally Recognized Degrees",
+                "description": "Degrees from French universities hold international recognition, enhancing career prospects and opportunities globally."
+            },
+            {
+                "title": "Innovation and Research",
+                "description": "France provides access to cutting-edge research facilities and encourages innovation, fostering a conducive environment for research-oriented studies."
+            },
+            {
+                "title": "Multilingual Opportunities",
+                "description": "Students have the chance to learn French, one of the most widely spoken languages worldwide, enriching their linguistic skills and global perspectives."
+            },
+            {
+                "title": "Student-Friendly Environment",
+                "description": "France offers a student-friendly environment with various support services, affordable living costs, and numerous cultural activities."
+            }
+        ],        
         "universities": [
             {
                 "key": 121,
@@ -907,125 +1091,150 @@
         "countryDetails": {
             "uni": "Switzerland",
             "name": "Study In Switzerland",
-            "description": "Each year more than 25,000 international students choose to study in Germany and undertake research activities..."
-        },
+            "description": "Study in Italy is an economical affair when compared to other study destinations in Europe. A popular study abroad destination, the same can be attributed to the fact that it is the multicultural home for a great number of artists. Home, to few of the top public and private universities, Italy provides quality education to students. The living costs as well as the tuition fees to study in Italy for Indian students are economical in nature."
+        },"facilities": [
+            {
+                "title": "High-Quality Education",
+                "description": "Switzerland is known for its high-quality education system with top-ranked universities and specialized institutions offering diverse programs."
+            },
+            {
+                "title": "Multicultural Environment",
+                "description": "Studying in Switzerland provides exposure to a multicultural environment, fostering cultural diversity and global networking opportunities."
+            },
+            {
+                "title": "Innovation and Research",
+                "description": "Switzerland is at the forefront of innovation and research, providing access to cutting-edge facilities and fostering an environment for groundbreaking discoveries."
+            },
+            {
+                "title": "Internationally Recognized Degrees",
+                "description": "Degrees from Swiss universities carry high international recognition, ensuring credibility and enhancing career prospects globally."
+            },
+            {
+                "title": "Focus on Hospitality and Business",
+                "description": "Switzerland is known for its excellence in hospitality and business education, offering specialized programs in these fields."
+            },
+            {
+                "title": "Stunning Natural Landscapes",
+                "description": "Students in Switzerland can experience stunning natural landscapes, contributing to a balanced lifestyle alongside their studies."
+            }
+        ],        
         "universities": [
             {
-                "key": 161,
+                "key": 141,
                 "name": "Swiss Federal Institute of Technology Zurich",
                 "location": "Zurich, Switzerland",
                 "imageUrl": ""
             },
             {
-                "key": 162,
+                "key": 142,
                 "name": "University of Zurich",
                 "location": "Zurich, Switzerland",
                 "imageUrl": ""
             },
             {
-                "key": 163,
+                "key": 143,
                 "name": "Federal Institute of Technology Lausanne",
                 "location": "Lausanne, Switzerland",
                 "imageUrl": ""
             },
             {
-                "key": 164,
+                "key": 144,
                 "name": "University of Bern",
                 "location": "Bern, Switzerland",
                 "imageUrl": ""
             },
             {
-                "key": 165,
+                "key": 145,
                 "name": "University of Geneva",
                 "location": "Geneva, Switzerland",
                 "imageUrl": ""
             },
             {
-                "key": 166,
+                "key": 146,
                 "name": "University of Basel",
                 "location": "Basel, Switzerland",
                 "imageUrl": ""
             },
             {
-                "key": 167,
+                "key": 147,
                 "name": "University of Lausanne",
                 "location": "Lausanne, Switzerland",
                 "imageUrl": ""
             },
             {
-                "key": 168,
+                "key": 148,
                 "name": "University of Fribourg",
                 "location": "Fribourg, Switzerland",
                 "imageUrl": ""
             },
             {
-                "key": 169,
+                "key": 149,
                 "name": "University of St. Gallen",
                 "location": "St. Gallen, Switzerland",
                 "imageUrl": ""
             },
             {
-                "key": 170,
+                "key": 150,
                 "name": "University of Neuchatel",
                 "location": "Neuchatel, Switzerland",
                 "imageUrl": ""
             },
             {
-                "key": 171,
+                "key": 151,
                 "name": "University of Italian-speaking Switzerland",
                 "location": "Lugano, Switzerland",
                 "imageUrl": ""
             },
             {
-                "key": 172,
+                "key": 152,
                 "name": "University of Applied Sciences of Northwestern Switzerland",
                 "location": "Olten, Switzerland",
                 "imageUrl": ""
             },
             {
-                "key": 173,
+                "key": 153,
                 "name": "Graduate Institute of International and Development Studies",
                 "location": "Geneva, Switzerland",
                 "imageUrl": ""
             },
             {
-                "key": 174,
+                "key": 154,
                 "name": "Bern University of Applied Sciences",
                 "location": "Bern, Switzerland",
                 "imageUrl": ""
             },
             {
-                "key": 175,
+                "key": 155,
                 "name": "University of Applied Sciences Western Switzerland",
                 "location": "Yverdon-les-Bains, Switzerland",
                 "imageUrl": ""
             },
             {
-                "key": 176,
+                "key": 156,
                 "name": "Lucerne University of Applied Sciences",
                 "location": "Lucerne, Switzerland",
                 "imageUrl": ""
             },
             {
-                "key": 177,
+                "key": 157,
                 "name": "University of Applied Sciences and Arts of Italian Switzerland",
                 "location": "Lugano, Switzerland",
                 "imageUrl": ""
             },
             {
-                "key": 178,
+                "key": 158,
                 "name": "University of Lucerne",
                 "location": "Lucerne, Switzerland",
                 "imageUrl": ""
             },
             {
-                "key": 179,
+                "key": 159,
                 "name": "University of Applied Sciences Zurich",
                 "location": "Winterthur, Switzerland",
                 "imageUrl": ""
             },
             {
-                "key": 180,
+                "key": 160,
                 "name": "Webster University Geneva",
                 "location": "Geneva, Switzerland",
                 "imageUrl": ""

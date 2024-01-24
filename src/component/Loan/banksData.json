@@ -1,0 +1,77 @@
+{
+        "banks": [
+      {
+        "name": "State Bank of India (SBI)",
+        "loanAmount": {
+          "withCollateral": "Up to INR 1.5 crore",
+          "withoutCollateral": "Up to INR 7.5 Lacs"
+        },
+        "interestRate": "11.15% p.a.",
+        "discounts": ["0.50% - Girl Concession", "0.50% - Rin Raksha Insurance"],
+        "loanTenure": "Up to 15 years",
+        "moratoriumPeriod": "Until course completion + 6 months",
+        "prePostDisbursementOptions": true
+      },
+      {
+        "name": "Bank of Baroda",
+        "loanAmount": {
+          "withCollateral": "Up to INR 1.5 Cr",
+          "withoutCollateral": "Up to INR 7.5 lakhs"
+        },
+        "interestRate": "Starting at 10.40%",
+        "discounts": ["0.50% - Girl Concession"],
+        "loanTenure": "Up to 15 years",
+        "moratoriumPeriod": "Until course completion + 12 months",
+        "prePostDisbursementOptions": true
+      },
+      {
+        "name": "Axis Bank",
+        "loanAmount": {
+          "withCollateral": "Up to INR 75 lakhs",
+          "withoutCollateral": "Up to INR 40 lakhs"
+        },
+        "interestRate": "Starting at 11.5% p.a.",
+        "loanTenure": "Up to 15 years (Excluding course duration)",
+        "prePostDisbursementOptions": true
+      },
+      {
+        "name": "Union Bank",
+        "loanAmount": {
+          "securedLoan": "As per student requirement",
+          "unsecuredLoan": "Up to Rs 40 Lakhs"
+        },
+        "interestRate": "Starting at 11% p.a.",
+        "loanTenure": "Up to 10 years (Including course duration)",
+        "moratoriumPeriod": "Until course completion + 12 months",
+        "prePostDisbursementOptions": true,
+        "margin": "15% irrespective of the loan amount"
+      },
+      {
+        "name": "Avanse",
+        "loanAmount": {
+          "securedLoan": "As per student requirement",
+          "unsecuredLoan": "Up to Rs 40 Lakhs"
+        },
+        "interestRate": "Starting at 11.5% p.a.",
+        "moratoriumPeriod": "Until course completion + 12 months",
+        "prePostDisbursementOptions": true,
+        "margin": "100% funding",
+        "loanSanction": "Before admission based on GRE/TOEFL/IELTS Score",
+        "preDisbursement": "For getting I20",
+        "topUpLoans": true
+      },
+      {
+        "name": "HDFC Credila",
+        "loanAmount": {
+          "securedLoan": "As per student requirement",
+          "unsecuredLoan": "Up to Rs 75 Lakhs"
+        },
+        "interestRate": "Starting at 11% p.a.",
+        "loanTenure": "Up to 10 years (Including course duration)",
+        "moratoriumPeriod": "Until course completion + 12 months",
+        "prePostDisbursementOptions": true,
+        "funding": "100% funding – No margin required"
+      }
+    ]
+  }
+  

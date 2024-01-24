@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
 import { Link } from "react-router-dom";
 import {Link as Links} from "react-scroll";
@@ -91,10 +91,16 @@ const NavBar = () => {
     setPopoverOpen(true);
   };
 
-  const handlePopoverClose = () => {
-    setPopoverOpen(false);
-  };
-
+  useEffect(() => {
+    // Scroll to the "About Us" section on initial load or when returning from another page
+    const hash = window.location.hash;
+    if (hash === '#aboutus') {
+      const element = document.getElementById('aboutus');
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, []);
   return (
     <div className="bg-white">
       <header className="sticky inset-x-0 top-0 z-50">
@@ -199,12 +205,14 @@ const NavBar = () => {
             >
               Exams
             </Links>
-            <Link
-              to="/loan"
+            <Links
+               to="loan"
+               spy={true}
+               smooth={true}
               className="text-sm font-semibold leading-6 text-gray-700 hover:text-gray-500 duration-300 transition-colors"
             >
               Loans
-            </Link>
+            </Links>
           </Popover.Group>
           <div className="hidden lg:flex  bg-[#FB2465] rounded-full p-2 text-white lg:justify-end">
             <Link to="/connect" className="btn flex gap-1 items-center">
@@ -302,13 +310,15 @@ const NavBar = () => {
                   >
                     Exam
                   </Links>
-                  <Link
-                    to="/loan"
+                  <Links
+                     to="loan"
+                     spy={true}
+                     smooth={true}
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-700 hover:bg-gray-50 "
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     Loans
-                  </Link>
+                  </Links>
                 </div>
                 <div className="py-6">
                   <Link

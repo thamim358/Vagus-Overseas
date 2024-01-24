@@ -84,7 +84,7 @@ class CityCard extends Component {
           />
           <div className="p-3">
             <div id="" />
-            <p className="text-base text-base sm:text-sm lg:text-base">{this.props.city}</p>
+            <p className=" text-base sm:text-sm lg:text-base">{this.props.city}</p>
             <div id="">
               <p className='text-sm text-black'>{this.props.description}</p>
             </div>

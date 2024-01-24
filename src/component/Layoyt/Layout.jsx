@@ -5,6 +5,8 @@ import Footer from "../Footer/Footer";
 import NavBar from "../Navbar/Navbar";
 import CardCarousel from "../Carosel/Carosel";
 import Exam from "../Exams/Exams";
+import Testimonials from "../Testimonial/Testimonial";
+import Loan from "../Loan/Loan";
 
 function Layout() {
   useEffect(() => {
@@ -14,12 +16,14 @@ function Layout() {
     
     <>
     <div className="">
-      <NavBar/>
+      {/* <NavBar/> */}
       <Header/>
       <AboutUs/>
       <CardCarousel/>
       <Exam/>
-      <Footer/>
+      <Loan/>
+      <Testimonials/>
+      {/* <Footer/> */}
       </div>
     </>
   );
