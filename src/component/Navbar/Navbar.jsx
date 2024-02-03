@@ -1,7 +1,7 @@
 import React, { Fragment, useEffect, useState } from "react";
 import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
 import { Link } from "react-router-dom";
-import {Link as Links} from "react-scroll";
+
 //icons
 import {
   Bars3Icon,
@@ -14,8 +14,8 @@ import { FaAngleRight, FaArrowRight } from "react-icons/fa";
 import { PiLinkSimpleBreakThin } from "react-icons/pi";
 
 //images
-// import brandicon from "../assets/brandlogo.png";
-// import brandiconmd from "../assets/brandlogomd.png";
+import brandicon from "../img/logo.png";
+import brandiconmd from "../img/logo.png";
 
 const programs = [
   {
@@ -111,7 +111,7 @@ const NavBar = () => {
           <div className="flex ">
             <Link to="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Vagus Oversess</span>
-              {/* <img
+              <img
                 className="h-10 w-auto lg:hidden"
                 src={brandiconmd}
                 alt="brandlogo"
@@ -120,7 +120,7 @@ const NavBar = () => {
                 className="hidden h-10 w-auto lg:block"
                 src={brandicon}
                 alt="brandlogo"
-              /> */}
+              />
             </Link>
           </div>
           <div className="flex lg:hidden">
@@ -189,30 +189,27 @@ const NavBar = () => {
               )}
             </Popover>
 
-            <Links
-             to="aboutus"
-             spy={true}
-             smooth={true}
+            <Link
+             to="/aboutus"
+          
               className="text-sm font-semibold leading-6 cursor-pointer text-gray-700 hover:text-gray-500 duration-300 transition-colors"
             >
               About Us
-            </Links>
-            <Links
-              to="exam"
-              spy={true}
-              smooth={true}
+            </Link>
+            <Link
+              to="/exam"
+             
               className="text-sm font-semibold leading-6 cursor-pointer text-gray-700 hover:text-gray-500 duration-300 transition-colors"
             >
               Exams
-            </Links>
-            <Links
-               to="loan"
-               spy={true}
-               smooth={true}
+            </Link>
+            <Link
+               to="/loan"
+              
               className="text-sm font-semibold leading-6 text-gray-700 hover:text-gray-500 duration-300 transition-colors"
             >
               Loans
-            </Links>
+            </Link>
           </Popover.Group>
           <div className="hidden lg:flex  bg-[#FB2465] rounded-full p-2 text-white lg:justify-end">
             <Link to="/connect" className="btn flex gap-1 items-center">
@@ -292,33 +289,30 @@ const NavBar = () => {
                       </>
                     )}
                   </Disclosure>
-                  <Links
-                    to="aboutus"
-                    spy={true}
-                    smooth={true}
+                  <Link
+                    to="/aboutus"
+                
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-700 hover:bg-gray-50"
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     About Us
-                  </Links>
-                  <Links
-                   to="exam"
-                   spy={true}
-                   smooth={true}
+                  </Link>
+                  <Link
+                   to="/exam"
+                  
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-700 hover:bg-gray-50"
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     Exam
-                  </Links>
-                  <Links
-                     to="loan"
-                     spy={true}
-                     smooth={true}
+                  </Link>
+                  <Link
+                     to="/loan"
+                    
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-700 hover:bg-gray-50 "
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     Loans
-                  </Links>
+                  </Link>
                 </div>
                 <div className="py-6">
                   <Link

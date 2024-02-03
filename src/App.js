@@ -8,6 +8,9 @@ import UniversityPage from './component/Universities/Universities.jsx';
 import ContactUs from './component/Contact us/Contact.jsx';
 import FAQSection from './component/Faq/Faq.jsx';
 import ScrollToTop from './ScrollToTop.jsx';
+import Exam from './component/Exams/Exams.jsx';
+import Loan from './component/Loan/Loan.jsx';
+import AboutUs from './component/About Us/About Us.jsx';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -25,9 +28,9 @@ function App() {
 
   return (
     <>
-      {/* {loading ? (
+      {loading ? (
         <Loader/> // Show the loader while content is loading
-      ) : ( */}
+      ) : (
         <Router>
         <ScrollToTop/>
           <NavBar/>
@@ -36,10 +39,13 @@ function App() {
             <Route path="/universities/:country" element={<UniversityPage />} />
             <Route path="/connect" element={<ContactUs />} />
             <Route path="/faq" element={<FAQSection />} />
+            <Route path="/exam" element={<Exam />} />
+            <Route path="/loan" element={<Loan />} />
+            <Route path="/aboutus" element={<AboutUs />} />
           </Routes>
           <Footer/>
         </Router>
-      {/* )} */}
+       )} 
     </>
   );
 }
