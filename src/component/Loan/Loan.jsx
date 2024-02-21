@@ -4,10 +4,10 @@ import banksData from './banksData.json';
 const Loan = () => {
   return (
     <div className="container mx-auto p-12" id='loan'>
-      <h1 className="text-3xl font-bold mb-4 text-[#FB2465]">Education Loan Providers for Studying Abroad
+      <h1 className="text-3xl font-bold mb-4 text-[#ff6537]">Education Loan Providers for Studying Abroad
       <hr
             style={{
-              backgroundColor: "#FB2465",
+              backgroundColor: "#ff6537",
               width: "160px",
               height: "2px",
               border: "none",
@@ -19,7 +19,7 @@ const Loan = () => {
       <div className="grid grid-cols-1 gap-6">
         {banksData.banks.map((bank, index) => (
           <div key={index} className="bg-white drop-shadow-2xl  p-6 rounded-lg" style={{borderRadius:'30px'}}>
-            <h2 className="text-xl text-[#FB2465] font-semibold mb-2">{bank.name}</h2>
+            <h2 className="text-xl text-[#ff6537] font-semibold mb-2">{bank.name}</h2>
             <p><strong>Loan Amount:</strong> {bank.loanAmount.withCollateral} (with collateral) | {bank.loanAmount.withoutCollateral} (without collateral)</p>
             <p><strong>Interest Rate:</strong> {bank.interestRate}</p>
             {bank.discounts && bank.discounts.length > 0 && (

@@ -32,10 +32,10 @@ const Testimonials = () => {
   return (
     <>
     <div className="p-12">
-    <h1 className='text-4xl sm:text-4xl lg:text-5xl  text-[#FB2465] font-bold text-start wow fadeInUp pt-4'>Testimonial</h1>
+    <h1 className='text-4xl sm:text-4xl lg:text-5xl  text-[#ff6537] font-bold text-start wow fadeInUp pt-4'>Testimonial</h1>
           <hr
             style={{
-              backgroundColor: "#FB2465",
+              backgroundColor: "#ff6537",
               width: "110px",
               height: "2px",
               border: "none",
@@ -55,7 +55,7 @@ const Testimonials = () => {
           <figcaption className="flex items-center justify-center">
             <img className="rounded-full w-9 h-9" src={testimonial.imageSrc} alt={`${testimonial.name}'s profile picture`} />
             <div className="space-y-0.5 font-medium  text-left rtl:text-right ms-3">
-              <div className='text-[#FB2465]'>{testimonial.name}</div>
+              <div className='text-[#ff6537]'>{testimonial.name}</div>
               <div className="text-sm text-gray-500 ">{testimonial.position}</div>
             </div>
           </figcaption>

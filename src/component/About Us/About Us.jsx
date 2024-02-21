@@ -34,7 +34,7 @@ export const AboutUs = () => {
               <span className="relative inline-block">
                 <svg
                   viewBox="0 0 52 24"
-                  fill="#FB2465"
+                  fill="#ff6537"
                   className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
                 >
                   <defs>
@@ -54,7 +54,7 @@ export const AboutUs = () => {
                     height="24"
                   />
                 </svg>
-                <span className="relative text-[#FB2465] text-4xl font-bold">
+                <span className="relative text-[#ff6537] text-4xl font-bold">
                   About us
                 </span>
               </span>
@@ -118,7 +118,7 @@ const FeatureCard = ({ icon, title, details }) => {
     <>
       <div className="mt-10 px-2 w-1/2 lg:w-1/6 mx-24 flex items-center justify-center">
         <div className="mb-2 rounded-[20px] bg-white p-5 shadow-md md:px-2 xl:px-5 flex flex-col items-center justify-center">
-          <div className="mb-6 flex items-center justify-center h-[60px] w-[60px] p-3 rounded-full bg-[#FB2465]">
+          <div className="mb-6 flex items-center justify-center h-[60px] w-[60px] p-3 rounded-full bg-[#ff6537]">
             {icon}
           </div>
           <h4 className="text-sm sm:text-base mb-2 font-semibold text-center">

@@ -5,7 +5,7 @@ class CardCarousel extends Component {
   render() {
     return (
       <div>
-        <div className="p-12 font-bold  text-[#FB2465] text-4xl">
+        <div className="p-12 font-bold  text-[#ff6537] text-4xl">
           <h1>Top Countries</h1>
           {/* Other HTML elements */}
           <div className="top-cities-carousel-wrap">

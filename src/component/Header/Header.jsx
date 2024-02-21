@@ -40,7 +40,7 @@ function Header() {
           aria-hidden="true"
         >
           <div
-            className="relative left-[calc(70%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#FB2465] to-[#c70202] opacity-30 sm:left-[calc(80%-30rem)] sm:w-[72.1875rem]"
+            className="relative left-[calc(70%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff6537] to-[#f6611c] opacity-30 sm:left-[calc(80%-30rem)] sm:w-[72.1875rem]"
             style={{
               clipPath:
                 'polygon(0% 100%, 25% 100%, 30% 70%, 50% 80%, 70% 40%, 80% 60%, 100% 40%, 100% 0%, 60% 10%, 40% 30%, 10% 20%)',
@@ -50,7 +50,7 @@ function Header() {
       <div className="mx-auto lg:max-w-2xl ">
         <div className="text-center mt-14">
           <h1 className="text-4xl font-semibold tracking-tight text-gray-800 sm:text-5xl">
-            Expand your <span className="text-[#FB2465]">horizons</span> abroad
+            Expand your <span className="text-[#ff6537]">horizons</span> abroad
           </h1>
           <p className="mt-6 text-sm text-gray-700 font-medium lg:text-base">
             <span className='w-4/6'>
@@ -62,7 +62,7 @@ function Header() {
     </div>
 
     <div className="mt-10 flex items-center justify-center">
-      {/* <div className="p-2 bg-[#FB2465] rounded-full text-white font-semibold">
+      {/* <div className="p-2 bg-[#ff6537] rounded-full text-white font-semibold">
         <Link to="/connect" className=" text-sm px-3 flex items-center">
           Connect <IconPhone className="pl-1 pb-1" />
         </Link>

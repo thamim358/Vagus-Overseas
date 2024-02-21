@@ -22,62 +22,60 @@ const programs = [
     name: "Study in USA",
     route: 'usa',
     description: "Study Bachelors in Germany",
-    href: "https://www.ug.headstart.co.in/",
+
     icon: AcademicCapIcon,
   },
   {
     name: "Study in Germany",
     route: 'germany',
     description: "Study PG Medicine and Work as a Doctor in Germany",
-    href: "https://www.pgmedicine.com/",
+  
     icon: AcademicCapIcon,
   },
   {
     name: "Study in UK",
     route: 'uk',
     description: "Start your Dream Career after 12th",
-    href: "https://www.ws.headstart.co.in/",
+  
     icon: AcademicCapIcon,
   },
   {
     name: "Study in Australia",
     route: 'australia',
     description: "Start your Dream Career after 12th",
-    href: "https://www.ws.headstart.co.in/",
+
     icon: AcademicCapIcon,
   },
   {
     name: "Study in Japan",
     route: 'japan',
     description: "Start your Dream Career after 12th",
-    href: "https://www.ws.headstart.co.in/",
+  
     icon: AcademicCapIcon,
   },
   {
     name: "Study in Italy",
     route: 'italy',
     description: "Start your Dream Career after 12th",
-    href: "https://www.ws.headstart.co.in/",
+   
     icon: AcademicCapIcon,
   },
   {
     name: "Study in France",
     route: 'france',
     description: "Start your Dream Career after 12th",
-    href: "https://www.ws.headstart.co.in/",
+  
     icon: AcademicCapIcon,
   },
   {
     name: "Study in Switzerland",
     route: 'switzerland',
     description: "Start your Dream Career after 12th",
-    href: "https://www.ws.headstart.co.in/",
+  
     icon: AcademicCapIcon,
   },
 ];
-const callsToAction = [
-  { direct: "Go To Programs ->", href: "/programs", icon: QueueListIcon },
-];
+
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -211,7 +209,7 @@ const NavBar = () => {
               Loans
             </Link>
           </Popover.Group>
-          <div className="hidden lg:flex  bg-[#FB2465] rounded-full p-2 text-white lg:justify-end">
+          <div className="hidden lg:flex  bg-[#ff6537] rounded-full p-2 text-white lg:justify-end">
             <Link to="/connect" className="btn flex gap-1 items-center">
               Connect <FaAngleRight size={15} />
             </Link>
@@ -230,7 +228,7 @@ const NavBar = () => {
           <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
               <Link to="/" className="-m-1.5 p-1.5">
-                <span className="sr-only">Headstart</span>
+  
                 {/* <img
                                     className="h-8 w-auto"
                                     src={brandicon}
@@ -275,14 +273,12 @@ const NavBar = () => {
                           {[...programs].map((item) => (
                             <Link
                               key={item.name}
-                              to={item.href}
+                              to={`/universities/${item.route}`} 
                               className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-700 hover:bg-gray-50"
                               onClick={() => setMobileMenuOpen(false)}
                             >
                               {item.name}
-                              <span className="text-primary font-bold">
-                                {item.direct}
-                              </span>
+                              
                             </Link>
                           ))}
                         </Disclosure.Panel>

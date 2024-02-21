@@ -89,11 +89,11 @@
       <>
         <div>
         {/* <NavBar /> */}
-        <div className="p-12 font-bold text-[#FB2465] text-4xl">
+        <div className="p-12 font-bold text-[#ff6537] text-4xl">
         <h1>Top Universities in {countryDetails.uni}</h1>
           <hr
             style={{
-              backgroundColor: "#FB2465",
+              backgroundColor: "#ff6537",
               width: "110px",
               height: "2px",
               border: "none",
@@ -140,7 +140,7 @@
               About
               <hr
             style={{
-              backgroundColor: "#FB2465",
+              backgroundColor: "#ff6537",
               width: "75px",
               height: "2px",
               border: "none",
@@ -153,11 +153,11 @@
           <div className="text-gray-500 text-lg mt-3">{countryDetails.description}</div>
           </div>
              <div className="mt-5">
-          <p className="text-4xl sm:text-4xl lg:text-5xl  text-[#FB2465] font-bold text-start wow fadeInUp pt-4">
+          <p className="text-4xl sm:text-4xl lg:text-5xl  text-[#ff6537] font-bold text-start wow fadeInUp pt-4">
            Facilities
            <hr
             style={{
-              backgroundColor: "#FB2465",
+              backgroundColor: "#ff6537",
               width: "75px",
               height: "2px",
               border: "none",
@@ -173,14 +173,14 @@
               {facilities.map((card, index) => (
                 <div className="flex" key={index}>
                   <div
-                    className="bg-white bg-opacity-5 rounded-lg ring-1 ring-[#FB2465] shadow-lg transform hover:scale-110 transition-transform duration-500"
+                    className="bg-white bg-opacity-5 rounded-lg ring-1 ring-[#ff6537] shadow-lg transform hover:scale-110 transition-transform duration-500"
                     style={{ borderRadius: "15px" }}
                   >
                     {/* <div className="text-center p-6 wow fadeInUp">
                       {card.logo}
                     </div> */}
                     <div className="px-4 py-2">
-                      <h3 className="text-base text-center text-[#FB2465] uppercase font-bold mb-2 wow fadeInUp">
+                      <h3 className="text-base text-center text-[#ff6537] uppercase font-bold mb-2 wow fadeInUp">
                         {card.title}
                       </h3>
                       <p className="text-[#737070] text-center font-semibold text-base p-3 wow fadeInUp">

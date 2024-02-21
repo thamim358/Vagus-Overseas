@@ -71,7 +71,7 @@ function Exam() {
     <>
       <div className="section wave p-7 bg" id="exam">
         <div className="py-10 px-5 lg:mx-12 sm:mx-4 ">
-          <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-[#FB2465] font-bold mb-3 lg:mb-5 self-start wow fadeInUp">
+          <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-[#ff6537] font-bold mb-3 lg:mb-5 self-start wow fadeInUp">
             Exams for Global Education Opportunities
           </div>
           <div className="flex justify-center ">
@@ -90,7 +90,7 @@ function Exam() {
 
                       <div className=" p-10 ">
                         <img className="h-24 " src={card.img} alt="" />
-                        <div className="font-bold text-[#FB2465] text-center">
+                        <div className="font-bold text-[#ff6537] text-center">
                           {" "}
                           {card.name}
                         </div>
@@ -99,7 +99,7 @@ function Exam() {
                     {/* Back side */}
                     <div className="absolute inset-0 h-full w-full rounded-xl card-exam  text-center  [transform:rotateY(180deg)] [backface-visibility:hidden]">
                       <div className="flex  flex-col items-center justify-center p-5">
-                        <h1 className="text-base font-bold text-[#FB2465]">
+                        <h1 className="text-base font-bold text-[#ff6537]">
                           {card.name}
                         </h1>
                         <p className="text-black text-sm mt-3 ">

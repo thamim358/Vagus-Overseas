@@ -17,7 +17,7 @@ import japan from '../img/japan.jpg';
 class CardCarousel extends Component {
   render() {
     return (
-      <div className="p-12 font-bold text-[#FB2465] text-4xl">
+      <div className="p-12 font-bold text-[#ff6537] text-4xl">
         <h1 className='mb-5'>Top Countries</h1>
         <hr className="hr-style" />
         <div className="top-cities-carousel-wrap">

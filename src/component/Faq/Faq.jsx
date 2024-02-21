@@ -51,10 +51,10 @@ const FAQSection = () => {
       
   return (
     <div className="container mx-auto py-8 p-12 drop-shadow-xl">
-      <h2 className="text-3xl font-bold mb-6 text-[#FB2465] ">FAQs for Education Abroad
+      <h2 className="text-3xl font-bold mb-6 text-[#ff6537] ">FAQs for Education Abroad
       <hr
             style={{
-              backgroundColor: "#FB2465",
+              backgroundColor: "#ff6537",
               width: "110px",
               height: "2px",
               border: "none",

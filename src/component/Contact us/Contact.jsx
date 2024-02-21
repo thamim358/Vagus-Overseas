@@ -139,11 +139,11 @@ function ContactUs() {
       <section className="contact space">
   
           <div className=" lg:p-3px sm:p-10 p-10">
-          <div className="  text-4xl text-[#FB2465] mb-4 font-bold  font-Achi wow fadeInUp ">
+          <div className="  text-4xl text-[#ff6537] mb-4 font-bold  font-Achi wow fadeInUp ">
                     Connect With Us
                     <hr
             style={{
-              backgroundColor: "#FB2465",
+              backgroundColor: "#ff6537",
               width: "110px",
               height: "2px",
               border: "none",
@@ -171,7 +171,7 @@ function ContactUs() {
               <div className="flex ">
                 <div className=" p-2">
                   <IconMail
-                    className="text-[#FB2465]"
+                    className="text-[#ff6537]"
                     size={40}
            
                   />
@@ -192,7 +192,7 @@ function ContactUs() {
               <div className="flex  mt-3 wow fadeInUp">
                 <div className=" p-2">
                   <IconPhoneCalling
-                    className="text-[#FB2465]"
+                    className="text-[#ff6537]"
                     size={40}
                   
                   />
@@ -209,7 +209,7 @@ function ContactUs() {
               <div className="flex  mt-3 wow fadeInUp">
                 <div className=" p-2">
                   <IconLocation
-                    className="text-[#FB2465]"
+                    className="text-[#ff6537]"
                     size={40}
                  
                   />
@@ -284,7 +284,7 @@ function ContactUs() {
                         required
                       ></textarea>
                       <button
-                        className="bg-[#FB2465]  text-black font-bold py-2 px-14 rounded-full  wow bounceIn cursor-pointer "
+                        className="bg-[#ff6537]  text-black font-bold py-2 px-14 rounded-full  wow bounceIn cursor-pointer "
                         type="submit"
                       >
                         Send

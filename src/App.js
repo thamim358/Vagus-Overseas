@@ -11,6 +11,9 @@ import ScrollToTop from './ScrollToTop.jsx';
 import Exam from './component/Exams/Exams.jsx';
 import Loan from './component/Loan/Loan.jsx';
 import AboutUs from './component/About Us/About Us.jsx';
+import Terms from './component/TermAndConditions/Terms.jsx';
+import PrivacyPolicy from './component/TermAndConditions/Privacypolicy.jsx';
+import CookiesPolicy from './component/TermAndConditions/Cookies.jsx';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -38,6 +41,9 @@ function App() {
             <Route path="/" element={<Layout  />} />
             <Route path="/universities/:country" element={<UniversityPage />} />
             <Route path="/connect" element={<ContactUs />} />
+            <Route path="/terms" element={<Terms />} />
+            <Route path="/privacy" element={<PrivacyPolicy />} />
+            <Route path="/cookies" element={<CookiesPolicy />} />
             <Route path="/faq" element={<FAQSection />} />
             <Route path="/exam" element={<Exam />} />
             <Route path="/loan" element={<Loan />} />
